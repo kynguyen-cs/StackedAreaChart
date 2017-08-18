@@ -127,7 +127,7 @@ export default class StackGraph extends React.Component {
     // Get the data from a .csv file with absolutely url
     d3.csv(
       // To request csv, download this file first to get direct link: http://www.mediafire.com/file/5n6zyqo8j9qazjn/crash.csv
-      'http://download1081.mediafireuserdownload.com/fgelixssl42g/5n6zyqo8j9qazjn/crash.csv',
+      'https://download1081.mediafireuserdownload.com/fgelixssl42g/5n6zyqo8j9qazjn/crash.csv',
       function(error, data) {
         // Error handle
         if (error) throw error;
